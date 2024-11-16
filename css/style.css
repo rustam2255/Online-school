@@ -1,0 +1,724 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+body{
+  background-color: #000000;
+}
+.header{
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: #000000;
+}
+.header-container{
+  background-color: #000000;
+  display: flex;
+  max-width: 1200px;
+  max-height: 75px;
+  margin-left: auto;
+  margin-right: auto;
+  gap: 75px;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+.nav-list{
+  display: flex;
+}
+.logo{
+  width: 189px;
+height: 74px;
+padding: 0px 0px 24px 84px;
+gap: 0px;
+opacity: 0px;
+
+}
+.nav-logo{
+  width: 105px;
+  height: 50px;
+  left: 84px;
+  gap: 0px;
+  opacity: 0px;
+}
+.logo a{
+  font-family: 'TT Firs Neue';
+  font-weight: 400px;
+  font-size: 21px;
+  line-height: 25.2px;
+  color: #ffffff;
+  text-decoration: none;
+}
+.nav-list{
+  width: 659px;
+height: 28px;
+gap: 64px;
+opacity: 0px;
+padding-top: 20px;
+}
+.nav-items{
+  list-style: none;
+}
+.nav-links{
+  text-decoration: none;
+  font-family: TT Firs Neue;
+font-size: 22px;
+font-weight: 300;
+line-height: 28.38px;
+text-align: left;
+color: #ffffff;
+}
+.nav-btn{
+  width:201px;
+height: 56px;
+padding: 14px 38px 14px 38px;
+gap: 10px;
+border-radius: 5px 0px 0px 0px;
+border: 2px 0px 0px 0px;
+opacity: 0px;
+margin-top: 7px;
+border: 2px solid #0041C0;
+color: #ffffff;
+background-color: black;
+}
+.section{
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: #000000;
+  
+}
+.section-info{
+margin-left: auto;
+margin-right: auto;
+max-width: 1200px;
+max-height: 515px;
+display: flex;
+}
+.info-left{
+  width:879px;
+height:444px;
+gap: 40px;
+opacity: 0px;
+}
+.job-btn{
+width: 183px;
+height: 43px;
+border-radius: 20px ;
+border: 1px 0px 0px 0px;
+border: 1px solid #D9D9D9;
+background-color: transparent;
+color: white;
+}
+.info-title{
+font-family: 'TT Firs Neue';
+font-size: 60px;
+font-weight: 800;
+line-height: 77.4px;
+text-align: left;
+color: white;
+margin-top: 20px;
+}
+.info-infos{
+  margin-top: 20px;
+}
+.info-items{
+width: 692px;
+height: 87px;
+font-family: 'TT Firs Neue';
+font-size: 20px;
+font-weight: 300;
+line-height: 25.8px;
+text-align: left;
+color: #ffffff;
+}
+.info-btn{
+  margin-top: 20px;
+}
+.btn-info{
+width: 301px;
+height: 56px;
+padding: 14px 88px 14px 88px;
+gap: 10px;
+border-radius: 5px 0px 0px 0px;
+opacity: 0px;
+background: #0041C0;
+color: #ffffff;
+}
+.info-right{
+width: 488px;
+height: 515px;
+left: 712px;
+}
+.girl-pict{
+width: 311px;
+height: 515px;
+left: 120px;
+bottom: 60px;
+position: relative;
+}
+.rectangle{
+width: 488px;
+height: 454px;
+top: 61px;
+gap: 0px;
+border-radius: 20px;
+opacity: 0px;
+background: linear-gradient(150.72deg, #0066FF 7.86%, #011D47 84.54%);
+}
+.skills{
+margin-left: auto;
+margin-right: auto;
+max-width: 1200px;
+max-height: 515px;
+display: flex;
+}
+.skil-items{
+width: 224px;
+height: 97px;
+border-radius: 10px;
+
+background-color: #1B1B1B;
+color: white;
+}
+.left{
+margin-left: 20px;
+}
+.skil-info{
+width: 130px;
+height: 35px;
+margin-top: 31px;
+margin-left: 45px;
+}
+.courses{
+  max-height: 589px;
+}
+.boy-img{
+width: 468px;
+height: 589px;
+border-radius: 20px;
+}
+.about-course{
+width: 712px;
+height: 589px;
+padding: 40px;
+gap: 10px;
+border-radius: 25px;
+background: #1B1B1B;
+margin-left: 30px;
+
+}
+.course-content{
+display: flex;
+}
+.title-course p{
+font-family: 'RF Dewi';
+font-size: 48px;
+font-weight: 700;
+line-height: 57.6px;
+text-align: left;
+color: #ffffff;
+}
+.info-course{
+  margin-top: 20px;
+}
+.info-course p{
+font-family: 'TT Firs Neue';
+font-size: 22px;
+font-weight: 300;
+line-height: 28.38px;
+text-align: left;
+color: #ffffff;
+}
+.stick{
+position: relative;
+width: 1px;
+height: 150px;
+border: 1px;
+background-color: white;
+margin-top: 70px;
+margin-left: 10px;
+}
+.content-logo{
+width: 56px;
+height: 56px;
+padding: 3.11px 6.26px 3.11px 6.26px;
+}
+.count-lesson{
+font-family: 'RF Dewi';
+font-size: 64px;
+font-weight: 900;
+line-height: 76.8px;
+text-align: left;
+color: #ffffff;
+}
+.descr-lesson{
+font-family: 'TT Firs Neue';
+font-size: 22px;
+font-weight: 300;
+line-height: 26.4px;
+text-align: left;
+color: #ffffff;
+}
+.course-content{
+  margin-top: 90px;
+}
+.count-lesson{
+  margin-top: 15px;
+}
+.left-content{
+  margin-left: 40px;
+}
+.for-who{
+  max-height: 488px;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.cards-who{
+  display: flex;
+  margin-top: 50px;
+}
+.p-who{
+font-family: 'TT Firs Neue';
+font-size: 48px;
+font-weight: 700;
+line-height: 61.92px;
+text-align: left;
+color: #FFFFFF;
+}
+.who-img{
+  width: 64px;
+  height: 64px;
+}
+.big-card-who{  
+padding-top: 40px;
+padding-left: 40px;
+max-width: 590px;
+max-height: 600px;
+border-radius: 20px;
+display: flex;
+background: linear-gradient(150.72deg, #0066FF 7.86%, #011D47 84.54%);
+}
+.small-card-who{
+  padding-top: 40px;
+padding-left: 40px;
+width: 285px;
+margin-left: 30px;
+height: 386px;
+border-radius: 20px;
+background: linear-gradient(150.72deg, #0066FF 7.86%, #011D47 84.54%);
+}
+.title-big-card{
+padding-top: 20px;
+width: 125px;
+height: 31px;
+font-family: 'TT Firs Neue';
+font-size: 24px;
+font-weight: 600;
+line-height: 30.96px;
+text-align: left;
+color: #FFFFFF;
+}
+.who-girl-img{
+  
+  width: 243px;
+height: 289px;
+margin-top: 57px;
+}
+.opt{
+  margin-top: 70px;
+  width: 304px;
+  height: 88px;
+  font-family: 'TT Firs Neue';
+  font-size: 17px;
+  font-weight: 300;
+  line-height: 21.93px;
+  text-align: left;
+  color: #FFFFFF;
+}
+.descr-big-card{
+  width: 304px;
+height: 88px;
+font-family: 'TT Firs Neue';
+font-size: 17px;
+font-weight: 300;
+line-height: 21.93px;
+text-align: left;
+color: #FFFFFF;
+margin-top: 30px;
+}
+.info-long-card{
+  margin-left: 15px;
+}
+.sostav-kurs{
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.program-kursa{
+font-family: 'TT Firs Neue';
+font-size: 48px;
+font-weight: 700;
+line-height: 61.92px;
+text-align: left;
+color: #FFFFFF;
+}
+.long-card{
+  width: 1200px;
+height: 1720px;
+padding: 32px;
+gap: 40px;
+border-radius: 20px;
+background: linear-gradient(0deg, #0E0E0E, #0E0E0E);
+background: linear-gradient(150.72deg, #0066FF 7.86%, #011D47 84.54%);
+background: linear-gradient(180deg, #F85220 0%, #111111 100%);
+background:  linear-gradient(150.72deg, #0066FF 7.86%, #011D47 84.54%);
+}
+.title-long-card{
+  display: flex;
+  justify-content: space-between;
+}
+.modul-1{
+  display: flex;
+}
+.other{
+  margin-top: 40px;
+}
+.seria1 p{
+  width: 467px;
+height: 41px;
+font-family: 'TT Firs Neue';
+font-size: 32px;
+font-weight: 700;
+line-height: 41.28px;
+text-align: left;
+color: #FFFFFF;
+}
+.drugo{
+  padding-top: 50px;
+}
+.seria2 p{
+  width: 150px;
+height: 41px;
+font-family: 'TT Firs Neue';
+font-size: 32px;
+font-weight: 250;
+line-height: 41.28px;
+text-align: right;
+color: #FFFFFF;
+margin-left: 120px;
+}
+.decr-long-card{
+  width: 594px;
+height: 57px;
+font-family: 'TT Firs Neue';
+font-size: 16px;
+font-weight: 300;
+line-height: 19.2px;
+text-align: left;
+color: #FFFFFF;
+}
+.gorizont-stick{
+  margin-top: 50px;
+  height: 1px;
+  width: 755px;
+  background-color: #FFFFFF;
+}
+.img-long-card{
+  width: 351px;
+height: 172px;
+border-radius: 20px;
+}
+.kurator{
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  max-height: 686px;
+}
+.info-kurator{
+  display: flex;
+}
+.season-1{
+  display: flex;
+  justify-content: space-between;
+}
+
+.season-2{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+}
+.title-kurator p{
+  font-family: 'TT Firs Neue';
+font-size: 48px;
+font-weight: 700;
+line-height: 61.92px;
+text-align: left;
+color: #FFFFFF;
+}
+.picture-curator{
+  width: 387px;
+height: 323px;
+border-radius: 20px;
+}
+.resurs-kurator{
+  margin-left: 20px;
+  width: 793px;
+height: 323px;
+border-radius: 20px;
+background-color: #0E0E0E;
+padding: 30px;
+}
+.name-p{
+  font-family: 'TT Firs Neue';
+font-size: 32px;
+font-weight: 700;
+line-height: 41.28px;
+text-align: left;
+color: #FFFFFF;
+}
+.job-curator{
+  font-family: 'TT Firs Neue';
+font-size: 32px;
+font-weight: 400;
+line-height: 41.28px;
+text-align: left;
+color: #0066FF;
+}
+.picture-port{
+  width: 230px;
+height: 52px;
+padding: 12px 36px 12px 36px;
+gap: 10px;
+border-radius: 10px;
+border: 1px ;
+border: 1px solid #3A3939
+}
+.img-port{
+  width: 158px;
+height: 28px;
+}
+.see-port{  
+  font-family: 'TT Firs Neue';
+font-size: 16px;
+font-weight: 300;
+line-height: 19.2px;
+text-align: left;
+color: #FFFFFF;
+}
+.job-port{
+  width: 48px;
+height: 48px;
+}
+.job-portfolio p{
+  margin-top: 10px;
+  color: #FFFFFF;
+}
+.example-img{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+.image-girls{
+  width: 285px;
+height: 241px;
+border-radius: 20px;
+}
+.title-study-p{
+  font-family: 'TT Firs Neue';
+font-size: 48px;
+font-weight: 700;
+line-height: 61.92px;
+text-align: left;
+color: #FFFFFF;
+}
+.process-study{
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.process-1{
+  display: flex;
+  justify-content: space-between;
+}
+.card-prosess{
+width: 387px;
+height: 253px;
+display: flex;
+padding: 30px;
+position: relative;
+border-radius: 20px;
+background: linear-gradient(0deg, #0E0E0E, #0E0E0E);
+background: linear-gradient(150.72deg, #0066FF 7.86%, #011D47 84.54%);
+background: linear-gradient(180deg, #F85220 0%, #111111 100%);
+background:  linear-gradient(150.72deg, #0066FF 7.86%, #011D47 84.54%);
+}
+.card-process-big{
+  width: 590px;
+  height: 253px;
+  display: flex;
+padding: 30px;
+position: relative;
+border-radius: 20px;
+background: linear-gradient(0deg, #0E0E0E, #0E0E0E);
+background: linear-gradient(150.72deg, #0066FF 7.86%, #011D47 84.54%);
+background: linear-gradient(180deg, #F85220 0%, #111111 100%);
+background:  linear-gradient(150.72deg, #0066FF 7.86%, #011D47 84.54%);
+}
+.card-process-title{
+  display: flex;
+  justify-content: space-between;
+}
+.style-study{
+  font-family: 'TT Firs Neue';
+font-size: 32px;
+font-weight: 700;
+line-height: 38.4px;
+text-align: left;
+color: #FFFFFF;
+}
+.number-study{
+  font-family: 'TT Firs Neue';
+font-size: 48px;
+font-weight: 700;
+line-height: 48px;
+text-align: left;
+color: #FFFFFF;
+}
+.descr-process{
+  font-family: 'TT Firs Neue';
+font-size: 16px;
+font-weight: 300;
+line-height: 19.2px;
+text-align: left;
+color: black;
+margin-top: 30px;
+}
+.img-process{
+  position: absolute;
+  width: 162px;
+height: 251px;
+top: 2px;
+left: 225px;
+gap: 0px;
+opacity: 0.3px;
+z-index: 1;
+}
+.info-process{
+  position: relative;
+  z-index: 2;
+}
+.process-2{
+  margin-top: 30px;
+}
+.big{
+  margin-left: 204px;
+}
+.number-study-big{
+  margin-left: 260px;
+}
+.sale{
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: space-between  ;
+}
+.sale-card{
+  padding: 30px;
+  width: 590px;
+height: 631px;
+gap: 10px;
+border-radius: 20px;
+border: 1px;
+border: 2px solid gray;
+}
+.follow{
+  font-family: 'TT Firs Neue';
+  color: #FFFFFF;
+font-size: 48px;
+font-weight: 700;
+line-height: 61.92px;
+text-align: left;
+}
+.follow span{
+  font-family: 'TT Firs Neue';
+font-size: 48px;
+font-style: italic;
+font-weight: 800;
+line-height: 61.92px;
+text-align: left;
+color:  #0066FF;
+}
+.oformit{
+  font-family: 'TT Firs Neue';
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 28.8px;
+  text-align: left;
+  color: #FFFFFF;
+}
+.ptichka{
+  font-family: 'TT Firs Neue';
+font-size: 16px;
+font-weight: 300;
+line-height: 19.2px;
+text-align: left;
+color: #FFFFFF;
+margin-top: 30px;
+}
+.ptichka img{
+  margin-right: 30px;
+}
+.price-1{
+  display: flex;
+  margin-top: 150px;
+  justify-content: space-between;
+}
+.price-sum p{
+  font-family: 'TT Firs Neue';
+  color: #FFFFFF;
+font-size: 48px;
+font-weight: 700;
+line-height: 61.92px;
+text-align: left;
+}
+.connect-course-btn{
+  width: 229px;
+height: 56px;
+padding: 14px;
+gap: 10px;
+border-radius: 5px;
+border: 3px;
+border: 3px solid #0041C0;
+font-family: 'TT Firs Neue';
+font-size: 22px;
+font-weight: 400;
+line-height: 28.38px;
+background: transparent;
+color: #0066FF;
+
+}
+.price-2{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 70px;
+}
+.sale-card-2{
+  background-color: #1B1B1B;
+}
+.buy-course-btn{
+  background-color: #0041C0;
+  color: #FFFFFF;
+  width: 229px;
+  height: 56px;
+  padding: 14px;
+  gap: 10px;
+  border-radius: 5px;
+  border: 3px;
+  border: 3px solid #0041C0;
+  font-family: 'TT Firs Neue';
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 28.38px;
+}
